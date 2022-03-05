@@ -1,4 +1,5 @@
-<include a CircleCI status badge, here>
+[![CircleCI](https://circleci.com/gh/ovimihai/cdond-ml-microservice-kubernetes.svg?style=svg)](https://circleci.com/gh/ovimihai/cdond-ml-microservice-kubernetes)
+
 
 ## Project Overview
 
@@ -27,6 +28,7 @@ You can find a detailed [project rubric, here](https://review.udacity.com/#!/rub
 
 * Create a virtualenv with Python 3.7 and activate it. Refer to this link for help on specifying the Python version in the virtualenv. 
 ```bash
+bash environment_setup.sh # for an environment with already installed docker and kubernetes
 python3 -m pip install --user virtualenv
 # You should have Python 3.7 available in your host. 
 # Check the Python path using `which python3`

@@ -18,3 +18,8 @@ sudo wget -O /bin/hadolint https://github.com/hadolint/hadolint/releases/downloa
 
 sudo chmod +x /bin/hadolint
 
+# k8s credentials setup
+mkdir -p $HOME/.kube
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+
